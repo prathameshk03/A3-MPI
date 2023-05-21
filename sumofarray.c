@@ -46,3 +46,9 @@ int main(int argc, char **argv)
     //  Terminates the MPI execution environment. The final MPI call that should be made, after it no MPI routines can be called.
     MPI_Finalize();
 }
+
+//sudo apt install build-essential
+
+//mpicc sumofarray.c -o sumofarray
+
+//./sumofarray
